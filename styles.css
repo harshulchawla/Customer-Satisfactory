@@ -1,0 +1,243 @@
+/* Reset default browser styles */
+body, h1, h2, p, ul, li, a {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Base styles */
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    background-color: #f5f5f5; /* Light grey background */
+    color: #333;
+}
+
+/* Header */
+header {
+    background: #232f3e; /* Amazon-like dark blue */
+    color: #fff;
+    padding: 1rem 0;
+    text-align: center;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.navbar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.navbar a {
+    color: #fff;
+    text-decoration: none;
+    padding: 0.75rem 1.5rem;
+    font-size: 1.1rem;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.navbar a:hover {
+    background-color: #131a22; /* Slightly darker for hover effect */
+    color: #e0e0e0;
+}
+
+/* Main section */
+main {
+    padding: 80px 1rem 1rem;
+}
+
+/* Section styling */
+.section {
+    margin: 2rem auto;
+    padding: 2rem;
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    max-width: 1200px;
+}
+
+/* Projects Section */
+.projects-container {
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+    flex-wrap: wrap;
+}
+
+.cust img {
+    max-width: 250px; /* Adjusted size */
+    height: auto;
+    border-radius: 8px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.cust img:hover {
+    transform: scale(1.05);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+}
+
+.pro {
+    flex: 1;
+}
+
+.pro h1 {
+    font-size: 2rem;
+    margin-bottom: 0.5rem;
+    color: #232f3e; /* Dark blue */
+}
+
+.pro p {
+    font-size: 1.1rem;
+    margin-bottom: 1rem;
+    color: #555;
+}
+
+.project-btn {
+    display: inline-block;
+    padding: 0.75rem 1.5rem;
+    color: #fff;
+    background: #ff9900; /* Amazon-like orange */
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+    font-size: 1.1rem;
+    transition: background 0.3s ease, transform 0.3s ease;
+}
+
+.project-btn:hover {
+    background: #e68a00; /* Darker orange on hover */
+    transform: scale(1.05);
+}
+
+/* Description Section */
+.description-container {
+    display: flex;
+    gap: 2rem;
+    flex-wrap: wrap;
+}
+
+.image-card img {
+    max-width: 250px; /* Adjusted size */
+    height: auto;
+    border-radius: 8px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.image-card img:hover {
+    transform: scale(1.05);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+}
+
+.text-content {
+    flex: 1;
+}
+
+.card {
+    background-color: #fff;
+    padding: 1.5rem;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-bottom: 1rem;
+}
+
+.card h1, .card h2 {
+    margin-bottom: 1rem;
+    font-size: 1.5rem;
+    color: #232f3e;
+}
+
+.card ul {
+    list-style: disc;
+    margin-left: 1.5rem;
+}
+
+.card ul li {
+    margin-bottom: 0.5rem;
+}
+
+.card p {
+    font-size: 1rem;
+    line-height: 1.6;
+}
+
+/* About Section */
+.about-card {
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+    flex-wrap: wrap;
+}
+
+.small-card img {
+    max-width: 150px; /* Adjusted size */
+    height: auto;
+    border-radius: 8px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.small-card img:hover {
+    transform: scale(1.05);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+}
+
+.social-links {
+    display: flex;
+    gap: 1rem;
+    margin-top: 1rem;
+}
+
+.social-card img {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    transition: transform 0.3s ease;
+}
+
+.social-card img:hover {
+    transform: scale(1.1);
+}
+
+/* Thank You Section */
+#Thanking {
+    text-align: center;
+    padding: 2rem;
+    background: #232f3e; /* Dark blue background */
+    color: #fff;
+    border-radius: 8px;
+    margin-top: 2rem;
+}
+
+/* Buttons */
+.btn-primary {
+    background: #ff9900; /* Amazon-like orange */
+    color: #fff;
+    border: none;
+    padding: 0.75rem 1.5rem;
+    border-radius: 5px;
+    text-decoration: none;
+    font-size: 1.1rem;
+    transition: background 0.3s ease, transform 0.3s ease;
+}
+
+.btn-primary:hover {
+    background: #e68a00; /* Darker orange on hover */
+    transform: scale(1.05);
+}
+
+.d-flex {
+    display: flex;
+}
+
+.justify-content-between {
+    justify-content: space-between;
+}
+
+.mt-3 {
+    margin-top: 1rem;
+}
